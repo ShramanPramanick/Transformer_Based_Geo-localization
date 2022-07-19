@@ -12,7 +12,7 @@ wget http://www.cis.jhu.edu/~shraman/mp16_places365_mapping_h3.json
 ## Download Evaluation Datasets
 Download the RGB images of the three evaluation datasets and their corresponding semantic maps.
 
-**``*`` Im2GPS dataset**
+** * Im2GPS dataset**
 ```
 wget http://www.cis.jhu.edu/~shraman/im2gps_rgb_images.tar.gz
 wget http://www.cis.jhu.edu/~shraman/im2gps_seg_images_PNG.tar.gz
