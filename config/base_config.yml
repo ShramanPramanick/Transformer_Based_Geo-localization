@@ -1,0 +1,27 @@
+optim: AdamW
+lr: 0.1
+momentum: 0.9
+weight_decay: 0.0001
+scheduler: Cosine
+momentum: 0.9
+
+
+model_params:
+  batch_size: 2
+  msgpack_train_dir: /export/io76a/data/enowara/mp16
+  msgpack_train_seg_dir: /export/io76a/data/enowara/mp16/mp16_seg_images_PNG/
+  msgpack_val_dir: /export/io76a/data/enowara/yfcc25600
+  msgpack_val_seg_dir: /export/io76a/data/enowara/yfcc25600/yfcc25600_seg_images_PNG/
+  # meta information i.e. coordinates for each image
+  train_meta_path: ./../resources/mp16_places365.csv
+  val_meta_path: ./../resources/yfcc25600_places365.csv 
+  # mapping from image ids in msgpack dataset to target value(s)
+  # orient: index -> {"img_id": [t1, t2], ...}
+  train_label_mapping: ./../resources/mp16_places365_mapping_h3.json
+  val_label_mapping: ./../resources/yfcc_25600_places365_mapping_h3.json
+  segment_file_path: ./../resources/semantic_cagtegories.mat
+  key_img_id: id # image id name for msgpack dataset
+  key_img_encoded: image # image data name for msgpack dataset
+  num_workers_per_loader: 8
+  percent_seg_pixels: 1
+
