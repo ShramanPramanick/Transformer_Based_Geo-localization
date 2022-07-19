@@ -12,17 +12,17 @@ wget http://www.cis.jhu.edu/~shraman/mp16_places365_mapping_h3.json
 ## Download Evaluation Datasets
 Download the RGB images of the three evaluation datasets and their corresponding semantic maps, and untar them into resources folder.
 
-** Im2GPS dataset**
+**Im2GPS dataset**
 ```
 wget http://www.cis.jhu.edu/~shraman/im2gps_rgb_images.tar.gz
 wget http://www.cis.jhu.edu/~shraman/im2gps_seg_images_PNG.tar.gz
 ```
-** Im2GPS3k dataset **
+**Im2GPS3k dataset**
 ```
 wget http://www.cis.jhu.edu/~shraman/im2gps3k_rgb_images.tar.gz
 wget http://www.cis.jhu.edu/~shraman/im2gps3k_seg_images_PNG.tar.gz
 ```
-** YFCC4k dataset **
+**YFCC4k dataset**
 ```
 wget http://www.cis.jhu.edu/~shraman/yfcc4k_rgb_images.tar.gz
 wget http://www.cis.jhu.edu/~shraman/yfcc4k_seg_images_PNG.tar.gz
