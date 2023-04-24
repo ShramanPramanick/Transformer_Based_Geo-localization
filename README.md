@@ -7,8 +7,8 @@ Download the RGB images, corresponding Segmentation maps and the annotations of 
 cd resources/
 wget http://www.cis.jhu.edu/~shraman/TransLocator/Datasets/mp16_rgb_images.tgz
 wget http://www.cis.jhu.edu/~shraman/TransLocator/Datasets/mp16_seg_images_PNG.tgz
-wget http://www.cis.jhu.edu/~shraman/TransLocator/Annotations/mp16_places365.csv
-wget http://www.cis.jhu.edu/~shraman/TransLocator/Annotations/mp16_places365_mapping_h3.json
+
+wget http://www.cis.jhu.edu/~shraman/TransLocator/Annotations.zip
 ```
 
 ## Download Evaluation Datasets
